@@ -203,7 +203,7 @@
   \pretocmd{\xtwitter}{\ClassWarning{altacv}{You tried to use \string\xtwitter, but the new X icon isn't available. Please ensure you have updated the `simpleicons' package. Falling back to \string\twitter\space icon for now}}{}{}%
  }
 \NewInfoField{linkedin}{\faLinkedin}[https://linkedin.com/in/]
-\NewInfoField{github}{\faGithub}[https://github.com/]
+\NewInfoField{github}{\faGithub}[https://]
 % v1.7.3 Backward compatibility for ORCiD icon
 \ifdef{\faOrcid}{
   \NewInfoField{orcid}{\faOrcid}[https://orcid.org/]
