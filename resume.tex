@@ -1,0 +1,165 @@
+\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+
+\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
+\usepackage{paracol}
+
+\setmainfont{Poppins}
+\usepackage[fallback]{xeCJK}[2011/05/01 v2.3.19]
+%\setCJKmainfont{Bauhaus ITC}
+\setCJKmainfont{Songti SC}
+
+\definecolor{VividPurple}{HTML}{3E0097}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{VividPurple}
+\colorlet{headingrule}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\renewcommand{\cvItemMarker}{{\small\textbullet}}
+\renewcommand{\cvRatingMarker}{\faCircle}
+
+\hypersetup{colorlinks = true, linkcolor = blue, urlcolor  = blue, citecolor = blue, anchorcolor = blue}
+\usepackage{worldflags}
+
+\begin{document}
+\name{刘珈奇}
+\tagline{专业打造现代化、高质量、高效率的 C 端 IT 科技团队}
+\photoR{2.5cm}{me}
+\personalinfo{
+    \github{QubitPi}
+    \phone{139-2343-3392}
+    \mailaddress{jack20220723@gmail.com}
+    %\location{现居：深圳}
+    \jobLocation{求职地意向：深圳}
+}
+
+\makecvheader
+
+\AtBeginEnvironment{itemize}{\small}
+\columnratio{0.6}
+\begin{paracol}{2}
+
+\cvsection{履历概述}
+    \cvevent{创始人、技术总监}{深圳市派昂科技有限公司}{2022/9 - 至今}{中国，深圳市，福田区}
+    \begin{itemize}
+        \item 努力实现企业利润增长：与湖南知名口腔连锁机构达成合作意向，开发智能语音病例管理系统，大大提高医生的工作效率和医患沟通质量，并在其中设计软件架构和数据流水线
+        \item 注重人才培养：在一个团队规模 8 人，研发人员 5 人的团队中，定期开展技术培训，并对不同技术人员开展针对性培养
+        \item 践行“语言创造价值”的战略：研发利用知识图谱技术，帮助多语言学习者高效学习词汇的 \href{https://wilhelmlang.com/}{wilhelmlang.com}
+        \item 不断推进科技创新实践：探索和研发自然语言处理和知识图谱相结合的知识管理类软件 \href{https://nexusgraph.com/}{nexusgraph.com}
+        \item 采用敏捷项目管理，构建开放、自由、自律的团队文化
+    \end{itemize}
+
+    \divider
+
+    \cvevent{资深软件开发工程师}{北京海致星途科技（深圳）有限公司}{2020/10 - 2022/05}{中国，深圳市，南山区}
+    \begin{itemize}
+        \item 参与开发知识图谱平台核心功能，并努力推进团队的技术标准化发展，例如帮助后端团队规范话软件开发流程，
+              例如代码规范，引入自动化测试，和制定代码审核机制
+        \item 帮助产品团队探索全自动化的软件运维管理平台，利用 Rancher/KubeSphere 虚拟化平台完善团队的 CI/CD 基础设施
+        \item 负责开发知识图谱平台难度高，业务复杂的资金追踪功能，利用动态知识图谱展示的方式，帮助金融监管部门和银行机构追踪资金流向，精准打击金融犯罪活动
+    \end{itemize}
+
+    \divider
+
+    \cvevent{高级软件开发工程师}{腾讯科技（深圳）有限公司}{2020/04 - 2020/07}{中国，深圳市，南山区}
+    \begin{itemize}
+        \item 机器学习平台后台维护开发，实现平台运营数据报表系统，通过图表的形式帮助领导迅速直观地评估机器学习平台的价值
+        \item 工作高质量完成，顺利转正
+        \item 对自己的职业规划有了更加正确的认识，意识到自己更加适合去一个什么样的团队
+    \end{itemize}
+
+    \divider
+
+    \cvevent{Software Engineer}{Yahoo!}{2016/02 -- 2020/02}{硅谷, 加利福尼亚州, 美国}
+
+    \switchcolumn
+
+    \cvsection{目标明确}
+    \begin{quote}
+    全心全意，为贵企创造科技价值
+    \end{quote}
+
+    \cvsection{履历过硬}
+
+    \cvachievement{\faYahoo}{美国 Yahoo Inc.}{Software Engineer, 全球广告大数据业务}
+
+    \divider
+
+    \cvachievement{\faQq}{腾讯科技(深圳)有限公司}{高级软件开发工程师，机器学习数据中台}
+
+    \divider
+
+    \cvachievement{\faBuilding}{深圳市派昂科技有限公司}{自主创业，语言学习 \& 知识图谱}
+
+    \cvsection{深耕技术}
+
+    {\LaTeXraggedright
+    \cvtag{\href{https://github.com/Qubitpi}{热衷开源}}
+    \cvtag{\href{https://github.com/Qubitpi\#backend-dev}{后端开发}}
+    \cvtag{数据流水线}
+    \cvtag{\href{https://github.com/Qubitpi\#devops}{运维开发}}
+    \cvtag{\href{https://nlp.qubitpi.org/}{自然语言处理}}
+    \cvtag{\href{https://github.com/Qubitpi\#frontend-dev}{前端开发}}
+    \par}
+
+    \divider\smallskip
+
+    \cvtag{项目管理}
+    \cvtag{团队管理}
+
+    \cvsection{学历优异}
+
+    \cvevent{计算机科学（硕士）}{University of Illinois at Urbana-Champaign（\href{https://www.usnews.com/best-graduate-schools/top-science-schools/computer-science-rankings}{美国计算机专业 TOP 5}）}{2014/08 -- 2015/12}{美国，伊利诺伊州}{Big Data \& Cloud Computing, GPA: \href{https://github.com/QubitPi/resume/blob/master/(grad%20%2B%20undergrad)%20official-transcript.pdf}{\textbf{3.66/4.00}}, \href{https://github.com/QubitPi/resume/blob/master/%E5%AD%A6%E5%8E%86%E8%AE%A4%E8%AF%81-%E7%A1%95%E5%A3%AB.pdf}{\worldflag[width=0.3cm, framewidth=0mm]{CN} 教育部学历认证}}
+
+    \divider
+
+    \cvevent{工程物理（本科）}{University of Illinois at Urbana-Champaign（\href{https://www.usnews.com/best-colleges/rankings/national-universities/top-public?_sort=rank&_sortDirection=asc}{美国公立大学 TOP 10}）}{2010/08 -- 2014/05}{美国，伊利诺伊州}{Computational Quantum Mechanics, GPA: \href{https://github.com/QubitPi/resume/blob/master/(grad%20%2B%20undergrad)%20official-transcript.pdf}{\textbf{3.63/4.00}}, \href{https://github.com/QubitPi/resume/blob/master/%E5%AD%A6%E5%8E%86%E8%AE%A4%E8%AF%81-%E6%9C%AC%E7%A7%91.pdf}{\worldflag[width=0.3cm, framewidth=0mm]{CN} 教育部学历认证}}
+
+\end{paracol}
+
+    \begin{itemize}
+    \item 软件工程师 (2018/10 - 2020/02)
+    \begin{itemize}
+        \item 负责公司在线广告业务某独立数据的收集和存储项目，服务于数据部门所有下游团队
+        \item 该项目使用开源技术 (Jersey, Jetty, MySQL, Hibernate ORM) 成功地为公司节省了高昂的第三方开支    (Oracle, Microstrategy)
+        \item 该项目提升了公司 ETL 技术的数据涵盖范围，将可自动化上传的数据扩展到了非机器数据源
+        \item 自主设计了整个软件的架构，包括前端和中间件 Webservice
+        \item 独立开发了架构中的数据 API 接口，该接口能够在短时间之内迅速开发并收集新的商业数据类型
+        \item 与其他 2 名工程师合作开发网页前端
+        \item 负责项目的所有软件部署和维护工作，包括用 CHEF 设计跟实现软件的全自动化部署 (CI/CD)，和 PE 合作部署 MySQL 数据库方案，以及数据结构与产品需求的同步
+        \item 迅速实现产品经理的需求
+    \end{itemize}
+    \item 中级软件工程师 (2017/02 - 2018/10)
+    \begin{itemize}
+        \item 负责开发并维护团队新一代先后基于 MySQL 和 HBase 的公司广告元数据查找系统，支持1个 TB 以上的数据快速查找
+        \item 参与开发 PB 级别利润数据计算与搜索的 Apache Druid 拓展模块
+        \item 参与开发高效的中间件 Webservice 利润数据访问 API 接口，提供公司全球的利润数据和分析报表
+        \item 不断与产品经理沟通并提升数据后台，以提供更好的数据访问体验
+        \item 迅速将 TB 级别的数据从雅虎老数据系统迁移至 Hadoop HDFS 分布式存储系统，避免了整个数据系统的瘫痪
+        \item 活跃于开源社区并成为了开源软件 fili.io 的核心开发者，参与开发了多项大的开发任务，并主动设计了软件主页 - fili.io
+        \item 主动要求完成职责之外的事情，如帮助团队的 ETL 小组开发数据批量处理脚本
+        \item 不断提升团队的代码，主动提议重构团队的元数据维护系统，提升系统自动化，并使代码更加容易维护
+    \end{itemize}
+    \item 中级软件工程师 (2016/02 - 2017/02)
+    \begin{itemize}
+        \item 在雅虎的 Flurry 移动分析平台团队中负责中间件 Webservice 开发
+        \item 参与 Flurry 数据 API 的维护和相关开源软件 Elide(elide.io) 的开发
+        \item 处理用户使用 API 时遇到的各种问题
+        \item 参与新业务数据 API 的设计和开发，帮助移动 app 开发者分析 app的报错数据
+        \item 维护、提升 Flurry 数据安全 API 接口并修复日常 bug
+        \item 参与软件运维工作，开发所有软件的运行监控脚本，帮助团队成员更好地了解软件运行状况，例如用户访问处理时间，CPU 使用率，服务器负载，以及性能数据等
+    \end{itemize}
+    \end{itemize}
+
+    \divider
+
+    \cvevent{Software Enginner Intern}{Grainger Inc. (世界 500 强)}{2014/04 - 2014/08}{香槟市, 伊利诺伊州, 美国}
+    \begin{itemize}
+    \item 成功开发并部署了公司物联网传感新技术，采集发电机（中央空调等）的运行情况数据，将数据可视化呈现给用户；与客户达成了 2000 个产品的交易合同，\href{https://github.com/QubitPi/resume/blob/master/recommendation.png?raw=true}{获得部门主管的高度认可}
+    \item 与另一位实习生合作用 Node.js 开发数据可视化前端，使用户可以查看发电机每秒的运行数据，帮助用户更好地预测机器故障
+    \item 展示出了明显的主人翁意识，主动承接最复杂的开发功能，并指引其它实习生的完成工作
+    \end{itemize}
+
+\end{document}
